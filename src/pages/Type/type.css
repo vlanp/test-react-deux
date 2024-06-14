@@ -1,0 +1,18 @@
+.type {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+}
+.type > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.type h2 {
+  text-align: center;
+}
+.type .pokemon-display:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=type.css.map */

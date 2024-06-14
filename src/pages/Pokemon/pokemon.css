@@ -1,0 +1,27 @@
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 10rem);
+  gap: 2rem;
+}
+.pokemon > div {
+  display: flex;
+  gap: 2rem;
+}
+.pokemon > div > div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.pokemon > div > div:last-child p {
+  text-align: center;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+}
+.pokemon > div > div:last-child p:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=pokemon.css.map */

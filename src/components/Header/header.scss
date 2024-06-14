@@ -1,0 +1,21 @@
+header {
+  height: 10rem;
+  border-bottom: 4px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  .header-image-link {
+    height: 100%;
+  }
+  img {
+    height: 100%;
+  }
+  > div {
+    display: flex;
+    gap: 2rem;
+  }
+  .link {
+    font-size: 1.8rem;
+  }
+}

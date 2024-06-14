@@ -1,0 +1,23 @@
+.type-list {
+  height: calc(100vh - 10rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 2rem;
+  gap: 2rem;
+}
+.type-list > section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.type-list > section .link {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.type-list h2 {
+  text-align: center;
+}/*# sourceMappingURL=typeList.css.map */
